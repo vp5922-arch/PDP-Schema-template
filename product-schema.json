@@ -1,0 +1,942 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Product",
+      "@id": "https://www.att.com/buy/phones/apple-iphone-17-pro-max.html#product",
+      "name": "Apple iPhone 17 Pro Max",
+      "description": "iPhone 17 Pro Max. The most powerful iPhone ever. Brilliant 6.9-inch display, aluminum unibody design, A19 Pro chip, all 48MP rear cameras, and best-ever battery life.",
+      "url": "https://www.att.com/buy/phones/apple-iphone-17-pro-max.html",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.att.com/buy/phones/apple-iphone-17-pro-max.html"
+      },
+      "image": [
+        "https://www.att.com/scmsassets/global/devices/phones/apple/apple-iphone-17-pro-max/defaultimage/cosmic-orange-702x702.jpg"
+      ],
+      "sku": "6094F",
+      "gtin13": "195950638004",
+      "mpn": "iphone-17-pro-max",
+      "brand": {
+        "@type": "Brand",
+        "name": "Apple",
+        "url": "https://www.apple.com",
+        "logo": "https://www.apple.com/ac/structured-data/images/knowledge_graph_logo.png"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Apple Inc.",
+        "url": "https://www.apple.com"
+      },
+      "model": "iPhone 17 Pro Max",
+      "color": [
+        "Cosmic Orange",
+        "Deep Blue",
+        "Silver"
+      ],
+      "material": "Heat-forged aluminum unibody",
+      "category": "Cell Phones > Apple",
+      "releaseDate": "2025",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.1,
+        "bestRating": 5,
+        "worstRating": 1,
+        "ratingCount": 16587,
+        "reviewCount": 16587
+      },
+      "offers": {
+        "@type": "AggregateOffer",
+        "@id": "https://www.att.com/buy/phones/apple-iphone-17-pro-max.html#offers",
+        "url": "https://www.att.com/buy/phones/apple-iphone-17-pro-max.html",
+        "priceCurrency": "USD",
+        "lowPrice": 1199.99,
+        "highPrice": 1999.99,
+        "offerCount": 4,
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition",
+        "priceValidUntil": "2026-12-31",
+        "seller": {
+          "@type": "Organization",
+          "@id": "https://www.att.com#organization",
+          "name": "AT&T",
+          "url": "https://www.att.com",
+          "logo": "https://www.att.com/images/att-logo.png",
+          "telephone": "+1-833-587-1070",
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "US"
+          },
+          "sameAs": [
+            "https://x.com/att",
+            "https://www.facebook.com/ATT",
+            "https://www.instagram.com/att/",
+            "https://www.linkedin.com/company/att/"
+          ]
+        },
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "iPhone 17 Pro Max 256GB",
+            "sku": "iphone-17-pro-max-256gb",
+            "url": "https://www.att.com/buy/phones/apple-iphone-17-pro-max.html",
+            "price": 1199.99,
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "price": 33.34,
+              "priceCurrency": "USD",
+              "unitText": "monthly",
+              "referenceQuantity": {
+                "@type": "QuantitativeValue",
+                "value": 36,
+                "unitCode": "MON"
+              },
+              "description": "36-month installment plan at 0% APR"
+            },
+            "itemOffered": {
+              "@type": "Product",
+              "name": "iPhone 17 Pro Max 256GB",
+              "additionalProperty": {
+                "@type": "PropertyValue",
+                "name": "Storage Capacity",
+                "value": "256",
+                "unitCode": "E34",
+                "unitText": "GB"
+              }
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "iPhone 17 Pro Max 512GB",
+            "sku": "iphone-17-pro-max-512gb",
+            "url": "https://www.att.com/buy/phones/apple-iphone-17-pro-max.html",
+            "price": 1399.99,
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "price": 38.89,
+              "priceCurrency": "USD",
+              "unitText": "monthly",
+              "referenceQuantity": {
+                "@type": "QuantitativeValue",
+                "value": 36,
+                "unitCode": "MON"
+              },
+              "description": "36-month installment plan at 0% APR"
+            },
+            "itemOffered": {
+              "@type": "Product",
+              "name": "iPhone 17 Pro Max 512GB",
+              "additionalProperty": {
+                "@type": "PropertyValue",
+                "name": "Storage Capacity",
+                "value": "512",
+                "unitCode": "E34",
+                "unitText": "GB"
+              }
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "iPhone 17 Pro Max 1TB",
+            "sku": "iphone-17-pro-max-1tb",
+            "url": "https://www.att.com/buy/phones/apple-iphone-17-pro-max.html",
+            "price": 1599.99,
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "price": 44.45,
+              "priceCurrency": "USD",
+              "unitText": "monthly",
+              "referenceQuantity": {
+                "@type": "QuantitativeValue",
+                "value": 36,
+                "unitCode": "MON"
+              },
+              "description": "36-month installment plan at 0% APR"
+            },
+            "itemOffered": {
+              "@type": "Product",
+              "name": "iPhone 17 Pro Max 1TB",
+              "additionalProperty": {
+                "@type": "PropertyValue",
+                "name": "Storage Capacity",
+                "value": "1",
+                "unitCode": "E34",
+                "unitText": "TB"
+              }
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "iPhone 17 Pro Max 2TB",
+            "sku": "iphone-17-pro-max-2tb",
+            "url": "https://www.att.com/buy/phones/apple-iphone-17-pro-max.html",
+            "price": 1999.99,
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "price": 55.56,
+              "priceCurrency": "USD",
+              "unitText": "monthly",
+              "referenceQuantity": {
+                "@type": "QuantitativeValue",
+                "value": 36,
+                "unitCode": "MON"
+              },
+              "description": "36-month installment plan at 0% APR"
+            },
+            "itemOffered": {
+              "@type": "Product",
+              "name": "iPhone 17 Pro Max 2TB",
+              "additionalProperty": {
+                "@type": "PropertyValue",
+                "name": "Storage Capacity",
+                "value": "2",
+                "unitCode": "E34",
+                "unitText": "TB"
+              }
+            }
+          }
+        ],
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": 0,
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 0,
+              "maxValue": 1,
+              "unitCode": "DAY"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 3,
+              "unitCode": "DAY"
+            },
+            "businessDays": {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday"
+              ]
+            }
+          }
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 14,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        }
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "dimensions-size",
+          "name": "Size (inches)",
+          "value": "6.43 x 3.07 x 0.34"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "dimensions-weight",
+          "name": "Weight (ounces)",
+          "value": "8.22",
+          "unitCode": "ONZ"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "display-size",
+          "name": "Display Size",
+          "value": "6.9-inch (diagonal) all-screen OLED display"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "display-resolution",
+          "name": "Resolution",
+          "value": "2868-by-1320-pixel resolution at 460 ppi"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "display-type",
+          "name": "Display Type",
+          "value": "Super Retina XDR display"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "display-contrast",
+          "name": "Contrast Ratio",
+          "value": "2,000,000:1 (typical)"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "display-features",
+          "name": "Display Features",
+          "value": "Dynamic Island, Always-On display, ProMotion technology with adaptive refresh rates up to 120Hz, HDR display, True Tone, Wide color (P3), Haptic Touch"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "display-brightness",
+          "name": "Brightness",
+          "value": "1000 nits max brightness (typical); 1600 nits peak brightness (HDR); 3000 nits peak brightness (outdoor); 1 nit minimum brightness"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "display-coating",
+          "name": "Display Coating",
+          "value": "Fingerprint-resistant oleophobic coating, Anti-reflective coating"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "water-resistance",
+          "name": "Splash, Water, and Dust Resistant",
+          "value": "Rated IP68 (maximum depth of 6 meters up to 30 minutes) under IEC standard 60529"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "camera-main",
+          "name": "Main Camera",
+          "value": "48MP Fusion Main: 24 mm, ƒ/1.78 aperture, second-generation sensor-shift optical image stabilization"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "camera-zoom",
+          "name": "Zoom",
+          "value": "8x optical-quality zoom in, 2x optical zoom out; 16x optical-quality zoom range; Digital zoom up to 40x"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "camera-system",
+          "name": "Camera System",
+          "value": "48MP Pro Fusion camera system with Sapphire crystal lens cover"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "camera-front",
+          "name": "Front Camera",
+          "value": "18MP Center Stage camera, ƒ/1.9 aperture, Autofocus with Focus Pixels, Retina Flash"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "video-recording",
+          "name": "Video Recording",
+          "value": "4K Dolby Vision video recording at 24 fps, 25 fps, 30 fps, 60 fps, 100 fps (Fusion Main), or 120 fps"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "video-formats",
+          "name": "Video Playback Formats",
+          "value": "HEVC, H.264, AV1, and ProRes HDR with Dolby Vision, HDR10+/HDR10, and HLG"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "battery-type",
+          "name": "Battery",
+          "value": "Built-in rechargeable lithium-ion battery"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "battery-video-playback",
+          "name": "Video Playback",
+          "value": "Up to 39 hours"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "battery-video-streaming",
+          "name": "Video Playback (Streamed)",
+          "value": "Up to 35 hours"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "battery-charging",
+          "name": "Fast Charging",
+          "value": "Up to 50% charge in 20 minutes with 40W adapter or higher"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "wireless-charging",
+          "name": "Wireless Charging",
+          "value": "Qi2 wireless charging up to 25W, MagSafe up to 25W"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "processor",
+          "name": "Processor",
+          "value": "A19 Pro chip: 6-core CPU with 2 performance and 4 efficiency cores, 6-core GPU with Neural Accelerator"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "neural-engine",
+          "name": "Neural Engine",
+          "value": "Included"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "memory",
+          "name": "Storage Options",
+          "value": "256GB | 512GB | 1TB | 2TB"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "operating-system",
+          "name": "Operating System",
+          "value": "iOS 26"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "face-id",
+          "name": "Face ID",
+          "value": "Enabled by TrueDepth technology in the Center Stage front camera"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "apple-pay",
+          "name": "Apple Pay",
+          "value": "Pay with your iPhone using Face ID in stores, within apps, and on the web"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "siri",
+          "name": "Siri",
+          "value": "Included with hands-free activation"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "5g-bands",
+          "name": "AT&T 5G+ Supported Network Bands",
+          "value": "n77 C-Band, n260"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "5g-all-bands",
+          "name": "5G Bands",
+          "value": "n1, n2, n3, n5, n7, n8, n12, n14, n20, n25, n26, n28, n29, n30, n38, n40, n41, n48, n53, n66 and more"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "4g-lte",
+          "name": "4G LTE Bands",
+          "value": "Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 28, 29, 30, 32, 34, 38, 39, 40, 41 and more"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "umts",
+          "name": "UMTS/HSPA+/DC-HSDPA",
+          "value": "850, 900, 1700/2100, 1900, 2100 MHz"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gsm",
+          "name": "GSM/GPRS/EDGE",
+          "value": "850, 900, 1800, 1900 MHz"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "hd-voice",
+          "name": "HD Voice",
+          "value": "Capable"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "wifi-calling",
+          "name": "Wi-Fi Calling",
+          "value": "Capable"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "video-calling",
+          "name": "Video Calling",
+          "value": "FaceTime video calling over cellular or Wi-Fi, FaceTime HD (1080p) video calling over 5G or Wi-Fi"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "wifi",
+          "name": "Wi-Fi",
+          "value": "Wi-Fi 7 (802.11be) with 2x2 MIMO"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "nfc",
+          "name": "NFC",
+          "value": "Near Field Communication with reader mode"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "bluetooth",
+          "name": "Bluetooth",
+          "value": "Included"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sim-type",
+          "name": "SIM Type",
+          "value": "Dual eSIM (two active eSIMs; stores eight or more eSIMs)"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "firstnet",
+          "name": "FirstNet Ready",
+          "value": "Yes"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "magsafe",
+          "name": "MagSafe",
+          "value": "MagSafe wireless charging up to 25W"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "browser",
+          "name": "Web Browser",
+          "value": "Safari"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sensors",
+          "name": "Sensors",
+          "value": "Face ID, LiDAR Scanner, Barometer, High dynamic range gyro, High-g accelerometer, Proximity sensor, Dual ambient light sensors"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "music-player",
+          "name": "Music Player",
+          "value": "Apple Music"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "audio-formats",
+          "name": "Supported Audio Formats",
+          "value": "AAC, APAC, MP3, Apple Lossless, FLAC, Dolby Digital, Dolby Digital Plus, and Dolby Atmos"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "spatial-audio",
+          "name": "Spatial Audio",
+          "value": "Included"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "hac-rating",
+          "name": "Hearing Aid Compatibility (HAC) Rating",
+          "value": "M3, T4"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "tty-compatible",
+          "name": "TTY/TTD Compatible",
+          "value": "Yes"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "rtt-capable",
+          "name": "Real Time Text (RTT)",
+          "value": "Capable"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "upc",
+          "name": "UPC",
+          "value": "195950638004"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sku",
+          "name": "SKU",
+          "value": "6094F"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "inbox",
+          "name": "In the Box",
+          "value": "USB-C Charge Cable (1 m), Documentation"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "design",
+          "name": "Design",
+          "value": "Heat-forged aluminum unibody design"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "durability",
+          "name": "Durability",
+          "value": "Ceramic Shield front and back, 4x more resistant to cracks"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "apple-intelligence",
+          "name": "Apple Intelligence",
+          "value": "Included"
+        }
+      ],
+      "isRelatedTo": [
+        {
+          "@type": "Product",
+          "name": "iPhone 17 Pro",
+          "description": "6.3-inch display",
+          "url": "https://www.att.com/buy/phones/apple-iphone-17-pro.html",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.2,
+            "ratingCount": 7390
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": 1099.99,
+            "priceCurrency": "USD",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "price": 30.56,
+              "priceCurrency": "USD",
+              "unitText": "monthly"
+            }
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "iPhone 17",
+          "url": "https://www.att.com/buy/phones/apple-iphone-17-256gb-mist-blue.html",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.1,
+            "ratingCount": 2142
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": 829.99,
+            "priceCurrency": "USD",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "price": 23.06,
+              "priceCurrency": "USD",
+              "unitText": "monthly"
+            }
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "iPhone Air",
+          "url": "https://www.att.com/buy/phones/apple-iphone-air.html",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.8,
+            "ratingCount": 1212
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": 999.99,
+            "priceCurrency": "USD",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "price": 27.78,
+              "priceCurrency": "USD",
+              "unitText": "monthly"
+            }
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "iPhone 16",
+          "url": "https://www.att.com/buy/phones/apple-iphone-16.html",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.2,
+            "ratingCount": 2754
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": 729.99,
+            "priceCurrency": "USD",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "price": 20.28,
+              "priceCurrency": "USD",
+              "unitText": "monthly"
+            }
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "iPhone 16e",
+          "url": "https://www.att.com/buy/phones/apple-iphone-16e.html",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.1,
+            "ratingCount": 1748
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": 599.99,
+            "priceCurrency": "USD",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "price": 16.67,
+              "priceCurrency": "USD",
+              "unitText": "monthly"
+            }
+          }
+        }
+      ],
+      "isSimilarTo": [
+        {
+          "@type": "Product",
+          "name": "Samsung Galaxy S25 Ultra",
+          "url": "https://www.att.com/buy/phones/samsung-galaxy-s25-ultra.html",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.6,
+            "ratingCount": 27036
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": 1299.99,
+            "priceCurrency": "USD",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "price": 36.12,
+              "priceCurrency": "USD",
+              "unitText": "monthly"
+            }
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "Samsung Galaxy Z Fold7",
+          "url": "https://www.att.com/buy/phones/samsung-galaxy-z-fold7.html",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.6,
+            "ratingCount": 6345
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": 1999.99,
+            "priceCurrency": "USD",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "price": 55.56,
+              "priceCurrency": "USD",
+              "unitText": "monthly"
+            }
+          }
+        }
+      ],
+      "potentialAction": {
+        "@type": "BuyAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.att.com/buy/phones/apple-iphone-17-pro-max.html",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "seller": {
+          "@type": "Organization",
+          "name": "AT&T"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.att.com/buy/phones/apple-iphone-17-pro-max.html#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "att.com",
+          "item": "https://www.att.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Home",
+          "item": "https://www.att.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Wireless",
+          "item": "https://www.att.com/wireless/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Cell Phones",
+          "item": "https://www.att.com/buy/phones/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Apple",
+          "item": "https://www.att.com/buy/phones/browse/apple/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "iPhone 17 Pro Max",
+          "item": "https://www.att.com/buy/phones/apple-iphone-17-pro-max.html"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.att.com/buy/phones/apple-iphone-17-pro-max.html",
+      "url": "https://www.att.com/buy/phones/apple-iphone-17-pro-max.html",
+      "name": "Buy New iPhone 17 Pro Max | Price, Colors and Plans | AT&T",
+      "description": "Shop the new Apple iPhone 17 Pro Max at AT&T. The most powerful iPhone ever with 6.9-inch display, A19 Pro chip, and 48MP cameras. Available in Cosmic Orange, Deep Blue, and Silver.",
+      "inLanguage": "en-US",
+      "dateModified": "2026-02-02",
+      "isPartOf": {
+        "@type": "WebSite",
+        "@id": "https://www.att.com#website",
+        "name": "AT&T",
+        "url": "https://www.att.com",
+        "publisher": {
+          "@type": "Organization",
+          "name": "AT&T",
+          "url": "https://www.att.com"
+        }
+      },
+      "about": {
+        "@id": "https://www.att.com/buy/phones/apple-iphone-17-pro-max.html#product"
+      },
+      "mainEntity": {
+        "@id": "https://www.att.com/buy/phones/apple-iphone-17-pro-max.html#product"
+      },
+      "breadcrumb": {
+        "@id": "https://www.att.com/buy/phones/apple-iphone-17-pro-max.html#breadcrumb"
+      },
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": "https://www.att.com/buy/phones/apple-iphone-17-pro-max.html"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          "h1",
+          ".overview",
+          ".key-features"
+        ]
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.att.com#organization",
+      "name": "AT&T",
+      "legalName": "AT&T Inc.",
+      "url": "https://www.att.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.att.com/images/att-logo.png"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+1-833-587-1070",
+          "contactType": "sales",
+          "areaServed": "US",
+          "availableLanguage": [
+            "English",
+            "Spanish"
+          ]
+        }
+      ],
+      "sameAs": [
+        "https://x.com/att",
+        "https://www.facebook.com/ATT",
+        "https://www.instagram.com/att/",
+        "https://www.linkedin.com/company/att/"
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://www.att.com/buy/phones/apple-iphone-17-pro-max.html#key-features",
+      "name": "Key Features",
+      "numberOfItems": 4,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Unibody Design",
+          "description": "UNIBODY DESIGN. FOR EXCEPTIONAL POWER.—Heat-forged aluminum unibody design for the most powerful iPhone ever made."
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Ceramic Shield",
+          "description": "DURABLE CERAMIC SHIELD. FRONT AND BACK.—Ceramic Shield protects the back of iPhone 17 Pro Max, making it 4x more resistant to cracks."
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Pro Camera System",
+          "description": "THE ULTIMATE PRO CAMERA SYSTEM—With all 48MP rear cameras and 8x optical-quality zoom—the widest zoom range on iPhone."
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Center Stage Front Camera",
+          "description": "18MP CENTER STAGE FRONT CAMERA— Flexible ways to frame your shot. Smarter group selfies, Dual Capture mode."
+        }
+      ]
+    },
+    {
+      "@type": "OfferCatalog",
+      "@id": "https://www.att.com/buy/phones/apple-iphone-17-pro-max.html#promotions",
+      "name": "iPhone 17 Pro Max Promotions",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "name": "Trade-in Offer",
+          "description": "Get the new iPhone 17 Pro Max for up to $1,100 off with eligible trade-in and qualifying unlimited plan",
+          "priceSpecification": {
+            "@type": "PriceSpecification",
+            "price": 2.78,
+            "priceCurrency": "USD",
+            "description": "As low as $2.78/mo with eligible trade-in"
+          }
+        },
+        {
+          "@type": "Offer",
+          "name": "Switch Offer",
+          "description": "Get up to $800/line to break your contract when you switch to AT&T"
+        },
+        {
+          "@type": "Offer",
+          "name": "New Line Discount",
+          "description": "Online only. Get $200 off a new line when you order online"
+        },
+        {
+          "@type": "Offer",
+          "name": "Credit Card Bonus",
+          "description": "Earn up to $440 back with the AT&T Points Plus Card from Citi"
+        }
+      ]
+    }
+  ]
+}

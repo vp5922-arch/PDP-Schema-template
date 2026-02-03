@@ -1,4 +1,4 @@
-# iPhone 17 Pro Max - Schema.org JSON-LD Template
+# AT&T iPhone 17 Pro Max - Schema.org JSON-LD Template
 
 Comprehensive structured data markup for the AT&T Product Detail Page (PDP).
 

@@ -1,68 +1,65 @@
-# iPhone 17 Pro Max - Schema.org JSON-LD Template
+# AT&T Schema.org JSON-LD Templates
 
-Comprehensive structured data markup for the AT&T Product Detail Page (PDP).
+Structured data markup templates for AT&T product pages, following Schema.org standards and Google's rich results guidelines.
 
-## Files
+## File Naming Convention
 
-| File | Purpose |
-|------|---------|
-| `iphone-17-pro-max-PRODUCTION.json` | Clean JSON-LD for production deployment |
-| `iphone-17-pro-max-ANNOTATED.js` | Annotated schema with data source tags |
+All files follow the pattern: `att-{page-type}-{product/category}-{suffix}`
 
-## Data Source Tags
+| Prefix | Page Type | Description |
+|--------|-----------|-------------|
+| `att-pdp-` | Product Detail Page | Individual product schema (e.g., iPhone 17 Pro Max) |
+| `att-plp-` | Product List Page | Collection/listing page schema (e.g., all phones) |
 
-Every field includes a tag showing where the data comes from:
+| Suffix | Purpose |
+|--------|---------|
+| `-PRODUCTION.json` | Clean JSON-LD ready for deployment |
+| `-ANNOTATED.js` | Schema with data source tags for developers |
+| `-DOCUMENTATION.md` | Implementation guide and reference |
 
-| Tag | Source | Status |
-|-----|--------|--------|
-| `[idp-cms-feed-json-feed]` | CMS JSON feed | **READY** - implement now |
-| `[CATALOG]` | PDP Catalog XML | **NEEDS BACKEND WORK** |
-| `[idp-cms-feed-json-feed][CATALOG]` | Both sources | Choose preferred source |
-| `[FRONTEND]` | Webpage only | Visible on page |
-| `[RECOMMENDED]` | Best practice | NOT in any feed |
+## Repository Files
 
-## Developer Priority
+### PDP — Product Detail Page
 
-### Phase 1 - Implement NOW (idp-cms-feed-json-feed ready)
-- Dimensions (DIM-10, DIM-20)
-- Display specs (DIS-10, DIS-20, DIS-50, DIS-60, DIS-120)
-- Camera specs (CAM-10, CAM-20, CAM-60, CAM-70)
-- Battery specs (BAT-50, BAT-60, BAT-80, BAT-180)
-- Processor (PRO-10)
-- Memory (MEM-10)
-- OS (OPS-10, OPS-30, OPS-130)
-- Wireless (WLS-10, WLS-110, WLS-140, WLS-180, WLS-190)
-- Sensors, MagSafe
-- Key Features (KFE-01 to KFE-04)
-- In The Box, Related Models, Image Gallery
+| File | Description |
+|------|-------------|
+| `att-pdp-iphone17promax-PRODUCTION.json` | iPhone 17 Pro Max product schema (12 offers, all variants) |
+| `att-pdp-iphone17promax-ANNOTATED.js` | Annotated version with CMS/catalog data source tags |
 
-### Phase 2 - Backend Work Needed (CATALOG)
-- SKU, UPC, MPN identifiers
-- All pricing (MSRP, monthly, promo)
-- Review ratings
-- Availability, Condition
-- Colors with hex codes
-- Categories (5G, AI)
+### PLP — Product List Page
 
-## UN/CEFACT Unit Codes
+| File | Description |
+|------|-------------|
+| `att-plp-phones-PRODUCTION.json` | Phones listing page schema (17 products, CollectionPage + ItemList) |
+| `att-plp-phones-DOCUMENTATION.md` | PLP implementation guide with industry research |
 
-| Code | Unit | Usage |
-|------|------|-------|
-| `E34` | Gigabyte | 256GB, 512GB |
-| `E35` | Terabyte | 1TB, 2TB |
-| `INH` | Inch | Dimensions |
-| `ONZ` | Ounce | Weight |
-| `MON` | Month | Installments |
+### Reference
 
-## Offer Structure
+| File | Description |
+|------|-------------|
+| `DATA-SOURCE-REFERENCE.md` | CMS feed field mappings and catalog XML references |
 
-All 12 offers consolidated in `offers.offers[]`:
-- 256GB: Cosmic Orange, Deep Blue, Silver
-- 512GB: Cosmic Orange, Deep Blue, Silver
-- 1TB: Cosmic Orange, Deep Blue, Silver
-- 2TB: Cosmic Orange, Deep Blue, Silver
+## Schema Architecture
+
+### Page-Specific Schemas (in this repo)
+- **CollectionPage + ItemList** — PLP product listings
+- **Product + AggregateOffer** — PDP product details
+- **WebSite + SearchAction** — Sitelinks search box
+
+### Global Schemas (managed separately)
+- **BreadcrumbList** — Site navigation breadcrumbs
+- **Organization** — AT&T corporate identity, logo, social profiles
 
 ## Validation
 
 - [Google Rich Results Test](https://search.google.com/test/rich-results)
 - [Schema.org Validator](https://validator.schema.org/)
+
+## Data Source Tags (PDP)
+
+| Tag | Source | Status |
+|-----|--------|--------|
+| `[idp-cms-feed-json-feed]` | CMS JSON feed | **READY** |
+| `[CATALOG]` | PDP Catalog XML | **NEEDS BACKEND** |
+| `[FRONTEND]` | Webpage only | Visible on page |
+| `[RECOMMENDED]` | Best practice | Not in any feed |

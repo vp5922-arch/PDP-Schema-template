@@ -1,0 +1,148 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Buy Phones",
+    "url": "https://www.att.com/buy/phones/",
+    "description": "Browse and compare the latest smartphones from Apple, Samsung, and Google. Find the perfect phone with AT&T's selection of iPhone, Galaxy, and Pixel devices with flexible payment plans and exclusive deals.",
+    "mainEntity": {
+      "@type": "ItemList",
+      "numberOfItems": 17,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "iPhone 17 Pro Max",
+          "url": "https://www.att.com/buy/phones/apple-iphone-17-pro-max.html",
+          "image": "https://www.att.com/scmsassets/global/devices/phones/apple/apple-iphone-17-pro-max/defaultimage/cosmic-orange-hero-zoom.png"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "iPhone 17 Pro",
+          "url": "https://www.att.com/buy/phones/apple-iphone-17-pro.html",
+          "image": "https://www.att.com/scmsassets/global/devices/phones/apple/apple-iphone-17-pro/defaultimage/space-black-hero-zoom.png"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "iPhone Air",
+          "url": "https://www.att.com/buy/phones/apple-iphone-air.html",
+          "image": "https://www.att.com/scmsassets/global/devices/phones/apple/apple-iphone-air/defaultimage/hero-zoom.png"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "iPhone 17",
+          "url": "https://www.att.com/buy/phones/apple-iphone-17.html",
+          "image": "https://www.att.com/scmsassets/global/devices/phones/apple/apple-iphone-17/defaultimage/hero-zoom.png"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "iPhone 16e",
+          "url": "https://www.att.com/buy/phones/apple-iphone-16e.html",
+          "image": "https://www.att.com/scmsassets/global/devices/phones/apple/apple-iphone-16e/defaultimage/hero-zoom.png"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Samsung Galaxy S25 Ultra",
+          "url": "https://www.att.com/buy/phones/samsung-galaxy-s25-ultra.html",
+          "image": "https://www.att.com/scmsassets/global/devices/phones/samsung/samsung-galaxy-s25-ultra/defaultimage/hero-zoom.png"
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "name": "Samsung Galaxy S25 FE",
+          "url": "https://www.att.com/buy/phones/samsung-galaxy-s25-fe.html",
+          "image": "https://www.att.com/scmsassets/global/devices/phones/samsung/samsung-galaxy-s25-fe/defaultimage/hero-zoom.png"
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "name": "Samsung Galaxy S25+",
+          "url": "https://www.att.com/buy/phones/samsung-galaxy-s25plus.html",
+          "image": "https://www.att.com/scmsassets/global/devices/phones/samsung/samsung-galaxy-s25-plus/defaultimage/hero-zoom.png"
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "name": "Samsung Galaxy Z Fold7",
+          "url": "https://www.att.com/buy/phones/samsung-galaxy-z-fold7.html",
+          "image": "https://www.att.com/scmsassets/global/devices/phones/samsung/samsung-galaxy-z-fold7/defaultimage/hero-zoom.png"
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "name": "Samsung Galaxy Z Flip7",
+          "url": "https://www.att.com/buy/phones/samsung-galaxy-z-flip7.html",
+          "image": "https://www.att.com/scmsassets/global/devices/phones/samsung/samsung-galaxy-z-flip7/defaultimage/hero-zoom.png"
+        },
+        {
+          "@type": "ListItem",
+          "position": 11,
+          "name": "Google Pixel 10 Pro XL",
+          "url": "https://www.att.com/buy/phones/google-pixel-10-pro-xl.html",
+          "image": "https://www.att.com/scmsassets/global/devices/phones/google/google-pixel-10-pro-xl/defaultimage/hero-zoom.png"
+        },
+        {
+          "@type": "ListItem",
+          "position": 12,
+          "name": "Google Pixel 10 Pro",
+          "url": "https://www.att.com/buy/phones/google-pixel-10-pro.html",
+          "image": "https://www.att.com/scmsassets/global/devices/phones/google/google-pixel-10-pro/defaultimage/hero-zoom.png"
+        },
+        {
+          "@type": "ListItem",
+          "position": 13,
+          "name": "Google Pixel 10",
+          "url": "https://www.att.com/buy/phones/google-pixel-10.html",
+          "image": "https://www.att.com/scmsassets/global/devices/phones/google/google-pixel-10/defaultimage/hero-zoom.png"
+        },
+        {
+          "@type": "ListItem",
+          "position": 14,
+          "name": "Google Pixel 9a",
+          "url": "https://www.att.com/buy/phones/google-pixel-9a.html",
+          "image": "https://www.att.com/scmsassets/global/devices/phones/google/google-pixel-9a/defaultimage/hero-zoom.png"
+        },
+        {
+          "@type": "ListItem",
+          "position": 15,
+          "name": "Motorola moto g stylus (2025)",
+          "url": "https://www.att.com/buy/phones/motorola-moto-g-stylus-2025.html",
+          "image": "https://www.att.com/scmsassets/global/devices/phones/motorola/motorola-moto-g-stylus-2025/defaultimage/hero-zoom.png"
+        },
+        {
+          "@type": "ListItem",
+          "position": 16,
+          "name": "Motorola razr ultra (2025)",
+          "url": "https://www.att.com/buy/phones/motorola-razr-ultra-2025.html",
+          "image": "https://www.att.com/scmsassets/global/devices/phones/motorola/motorola-razr-ultra-2025/defaultimage/hero-zoom.png"
+        },
+        {
+          "@type": "ListItem",
+          "position": 17,
+          "name": "Motorola razr+ (2025)",
+          "url": "https://www.att.com/buy/phones/motorola-razrplus-2025.html",
+          "image": "https://www.att.com/scmsassets/global/devices/phones/motorola/motorola-razrplus-2025/defaultimage/hero-zoom.png"
+        }
+      ]
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "AT&T",
+    "url": "https://www.att.com",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://www.att.com/buy/phones/?searchQuery={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
+  }
+]
